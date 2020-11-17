@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>HELPING HANDS</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+	<style type="text/css">
+
+		body
+		{
+			background-image: url("download.png");
+			background-color: #cccccc;
+			background-size:1080px;
+
+		}
+		.mySlides {
+            display:none;
+            width: 140px;
+            height:480px;
+
+              }
+	.img
+		{
+
+            
+			width:240px;
+			height: 240px;
+			border-radius: 50%;
+
+		}
+		.img1
+		{
+			float: left;
+			width: 1500px;
+			height: 480px;
+			border-radius:0% ;
+		}
+		.img2
+		{
+			width:80px;
+			height: 80px;
+			border-radius: 50%;
+
+		}
+		.img3
+		{
+			float:left;
+		}
+
+		.center
+		{
+			position: absolute;
+			top: 90%;
+			left: 30%;
+			transform: translate(-50%;-50%);
+			font-size: 48px;
+			color: black;
+			font-family: Elephant;
+		}
+		.button{
+			border: none;
+			color:black;
+			padding: 15px 32px;
+			text-align: center;
+			text-decoration: none;
+			display: inline block;
+			font-size: 16px;
+}
+		
+.button1
+{
+	background-color:white ;
+	color: black;
+	border: 2px solid yellow;
+}
+.button1:hover 
+{
+background-color: yellow;
+  color: white;
+}
+h2
+{
+	text-align: center;
+    font-size: 42px;
+    color: #ff6699;
+}
+h1
+		{
+			font-size: 64px;
+			font-family: Forte;
+			color:black;
+			margin-left: 70px;
+		}
+	p
+	{
+
+	}
+
+	</style>
+</head>
+<body>
+	<img class="img img3" src="main.jpg">
+
+	<div align="right">	<button class="button button1"  onclick="document.location='main.html'">HOME</button></div>
+	<h1 align="center"><u>HELPING HANDS</u></h1><br><br>
+	<font size="36px"><h1>GALLERY OF COMPALINTS:</h1></font>
+	
+	<div class="w3-content w3-display-container">
+  <img class="mySlides" src="https://blog.ipleaders.in/wp-content/uploads/2015/06/image003.png" style="width:100%">
+  <img class="mySlides" src="https://pbs.twimg.com/media/DhFUTwGVAAAQmWY.jpg" style="width:100%">
+  <img class="mySlides" src="https://i.pinimg.com/originals/7f/4b/27/7f4b27acf5f71af237e92028c6b125f3.gif" style="width:100%">
+  <img class="mySlides" src="https://myragolden.files.wordpress.com/2014/12/screen-shot-2014-12-12-at-9-34-08-am-2.png" style="width:100%">
+  <img class="mySlides" src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSqL6sKedUG9owsnnesTOUTbd22PrK4bcYXd-i-llIJX7T3nWN7&usqp=CAU"style="width:100%">
+  <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+  <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+</div>
+
+     <div align="center">
+    <a href="https://www.facebook.com">
+<img class="img img2" border="0" alt="W3Schools" src="facebook logo.png" width="100" height="100">
+</a>
+<a href="https://www.instagram.com">
+<img border="0" alt="W3Schools" class="img img2" src="instagram logo.png" width="100" height="100">
+</a>
+<a href="https://www.twitter.com">
+<img border="0" alt="W3Schools" class="img img2" src="twitter logo.png" width="100" height="100">
+</a>
+</div>
+</body>
+<script>
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  if (n > x.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  x[slideIndex-1].style.display = "block";  
+}
+</script>
+</html>

@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css?family=Major+Mono+Display&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Cousine&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Rochester&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Great+Vibes&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Megrim&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Michroma&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Grand+Hotel&display=swap');
+body{
+    text-align: center;
+    margin: 0;
+    padding: 0;
+background: url(../maintex.jpg);
+background-position: center;
+background-size: cover;
+font-family: Arial, Helvetica, sans-serif;
+color: whitesmoke;
+}
+
+ul{
+    float: right;
+    list-style-type: none;
+    margin-top: 25px;
+
+}
+ul li{
+    display: inline-block;
+}
+ul li a{
+    font-size: small;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    padding: 5px 20px;
+    border: 1px solid transparent;
+    transition: 0.4s ease;
+
+}
+ul li a:hover{
+    
+    background-color: rgb(4, 131, 88);
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 8px 8px black;;
+
+}
+    .active{
+    background-color: rgb(4, 131, 88);
+    color: rgb(255, 255, 255);
+
+}
+.title{
+    
+    font-size: 80px;
+    font-weight: bold;
+    color: tomato;
+    
+    
+
+    
+}
+
+.card1{
+    color: rgb(0, 0, 0);
+    text-align: center;
+    width: 370px;
+    height: 550px;
+    background: #ffffff;
+    border: 5px solid wheat;
+    position: absolute;
+    top: 18.2%;
+    left: 6%;
+}
+.card2{
+    color: rgb(0, 0, 0);
+    text-align: center;
+    width: 370px;
+    height: 550px;
+    background: #ffffff;
+    border: 5px solid wheat;
+    position: absolute;
+    top: 18.2%;
+    left: 37%;
+}
+.card3{
+    color: rgb(0, 0, 0);
+    text-align: center;
+    width: 370px;
+    height: 550px;
+    background: #ffffff;
+    border: 5px solid wheat;
+    position: absolute;
+    top: 18.2%;
+    left: 68%;
+}
+
+.name1,.name2,.name3{
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+
+}
+.card1 a,.card2 a,.card3 a{
+
+    color: rgb(0, 0, 0);
+    font-size: 40px;
+
+}
+.card1:hover,.card2:hover,.card3:hover{
+    box-shadow: 0 4px 4px 4px rgb(255, 105, 105);
+    transform: scale(1.15);
+}
+
+button{
+    border: none;
+    padding: 8px;
+display: inline-block;
+color: #fff;
+background-color: #000;
+cursor: pointer;
+width: 70%;
+border-radius: 0px;
+font-size: 18px;
+text-align: center;
+}
+button:hover{
+    background: rgb(136, 135, 135);
+}

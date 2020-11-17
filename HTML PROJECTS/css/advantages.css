@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css?family=Major+Mono+Display&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Cousine&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Rochester&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Great+Vibes&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Megrim&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Michroma&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Grand+Hotel&display=swap');
+*{
+    text-align: center;
+}body{
+    text-align: center;
+    margin: 0;
+    padding: 0;
+background: url(../maintex.jpg);
+background-position: center;
+background-size: cover;
+font-family: Arial, Helvetica, sans-serif;
+color: whitesmoke;
+}
+
+ul{
+    float: right;
+    list-style-type: none;
+    margin-top: 25px;
+
+}
+ul li{
+    display: inline-block;
+}
+ul li a{
+    font-size: small;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    padding: 5px 20px;
+    border: 1px solid transparent;
+    transition: 0.4s ease;
+
+}
+ul li a:hover{
+    
+    background-color: rgb(4, 131, 88);
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 8px 8px black;;
+
+}
+    .active{
+    background-color: rgb(4, 131, 88);
+    color: rgb(255, 255, 255);
+
+}
+.title{
+    
+    font-size: 80px;
+    font-weight: bold;
+    color: tomato;
+    
+    
+
+    
+}
+.content{
+    position: absolute;
+    top: 15%;
+    left: 0;
+    text-align: center;
+}
+h1{
+    font-size: 50px;
+    font-weight: bold;
+    text-decoration: underline;
+}
+p{
+    font-size: 30px;
+  
+}

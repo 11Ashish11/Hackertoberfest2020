@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>HELPING HANDS</title>
+	<style type="text/css">
+		body
+		{
+			background-image: url("download.png");
+			background-color: #cccccc;
+			background-size:1080px;
+
+		}
+		.mySlides {
+            display:none;
+            width: 960px;
+            height:480px;
+
+              }
+	.img
+		{
+
+            
+			width:240px;
+			height: 240px;
+			border-radius: 50%;
+
+		}
+		.img1
+		{
+			float: left;
+			width: 1500px;
+			height: 480px;
+			border-radius:0% ;
+		}
+		.img2
+		{
+			width:80px;
+			height: 80px;
+			border-radius: 50%;
+
+		}
+		.img3
+		{
+			float:left;
+		}
+		.center
+		{
+			position: absolute;
+			top: 90%;
+			left: 30%;
+			transform: translate(-50%;-50%);
+			font-size: 48px;
+			color: black;
+			font-family: Elephant;
+		}
+		.button{
+			border: none;
+			color:black;
+			padding: 15px 32px;
+			text-align: center;
+			text-decoration: none;
+			display: inline block;
+			font-size: 16px;
+}
+		
+.button1
+{
+	background-color:white ;
+	color: black;
+	border: 2px solid yellow;
+}
+.button1:hover 
+{
+background-color: yellow;
+  color: white;
+}
+h2
+{
+	text-align: center;
+    font-size: 42px;
+    color: #ff6699;
+}
+h1
+		{
+			font-size: 64px;
+			font-family: Forte;
+			color:black;
+			margin-left: 70px;
+		}
+	.td
+	{
+    font-size:  24px;
+    
+	}
+	.td1
+	{
+
+		color:black;
+		font-weight: bold;
+		font-family: Forte;
+    font-size: 48px;
+    background-color: yellow;
+text-align: center;
+	}
+	p
+	{
+		margin-left: 120px;
+		font-size: 32px;
+	}
+	
+	</style>
+</head>
+<body>
+	<img class="img img3" src="main.jpg">
+
+	<br>
+	<h1 align="center"><u>HELPING HANDS</u></h1><br><br>
+	<font size="36px" align="center"><h1>WELCOME</h1></font>
+
+	<table align="right" cellpadding="10px" cellspacing="40px" border="0px">
+		<tr><td class="td td1 ">MENU</td></tr>
+		<tr><td class="td"><button class="button button1" onclick="document.location='page1.html'">ADD COMPLAINT PAGE</button></td></tr>
+		<tr><td class="td"><button class="button button1" onclick="document.location='page2.html'">Complaint View: Type-wise</button></td></tr>
+		<tr><td class="td"><button class="button button1" onclick="document.location='page3.html'">Complaint View:Place wise</button></td></tr>
+		<tr><td class="td"><button class="button button1" onclick="document.location='page4.html'">Gallery of Complaints</button></td></tr>
+	</table>
+	<p  align="center" > Hey, user welcome to our website.Here,is a helping  hand for you.We are here to help you in every needful help you want from our side.We will resolve any of your complaint here on this website..We ensures you of your personal data . There will not be any type of data likage or data unhiding from this website.
+	You are free to register your complaint. </p>
+	<font size="36px"><h1>ABOUT US:</h1></font>
+	
+	<p align="center">We are the your helping hands our team consist of a Managing Director ,a CEO,a Tresurer,two general secataries,five assistant secataries and 10 managers along with 210 staff memebers who determine you complaint.
+		We have a strong network chain in the whole country . We have <b>24*7*365</b> basis of the working hour capacity when there are complaints more than usual. We  have best in class facility in the world in our offices to maintain a good performance as well. We have 200 offices in 190+ cites.
+	</p>
+<font size="36px"><h1>Objective:</h1></font>
+    <p  align="center">
+    	Our objective is to fulfill that all people should have no complaint with them.<br>People should live there life freely and happily throughout their life.<br><font color="yellow" size="48px"><b> <U>Our moto:</U> <br>Life isn't about waiting for the storm to pass. It's about learning how to dance in the rain.</b></font><br>
+    	Following our moto we work with our team to ensure that all people are happy and do not face any problem in their life .
+    	We are there for them to resolve there any issues they have with them. 
+    </p>
+    <div align="center">
+    <a href="https://www.facebook.com">
+<img class="img img2" border="0" alt="W3Schools" src="facebook logo.png" width="100" height="100">
+</a>
+<a href="https://www.instagram.com">
+<img border="0" alt="W3Schools" class="img img2" src="instagram logo.png" width="100" height="100">
+</a>
+<a href="https://www.twitter.com">
+<img border="0" alt="W3Schools" class="img img2" src="twitter logo.png" width="100" height="100">
+</a>
+</div>
+</body>
+<script>
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  if (n > x.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  x[slideIndex-1].style.display = "block";  
+}
+</script>
+</html>

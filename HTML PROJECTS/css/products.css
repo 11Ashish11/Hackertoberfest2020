@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css?family=Major+Mono+Display&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Cousine&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Rochester&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Great+Vibes&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Megrim&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Michroma&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Grand+Hotel&display=swap');
+body{
+    text-align: center;
+    margin: 0;
+    padding: 0;
+background: url(../maintex.jpg);
+background-position: center;
+background-size: cover;
+font-family: Arial, Helvetica, sans-serif;
+color: whitesmoke;
+}
+
+ul{
+    float: right;
+    list-style-type: none;
+    margin-top: 25px;
+
+}
+ul li{
+    display: inline-block;
+}
+ul li a{
+    font-size: small;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    padding: 5px 20px;
+    border: 1px solid transparent;
+    transition: 0.4s ease;
+
+}
+ul li a:hover{
+    
+    background-color: rgb(4, 131, 88);
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 8px 8px black;;
+
+}
+    .active{
+    background-color: rgb(4, 131, 88);
+    color: rgb(255, 255, 255);
+
+}
+.title{
+    
+    font-size: 80px;
+    font-weight: bold;
+    color: tomato;
+    
+    
+
+    
+}
+
+.product1{
+  
+ 
+    position: absolute;
+    top: 12%;
+    left: 0;
+    width: 33.33%;
+    height: 45vh;
+    border: 2px solid rgb(1, 71, 1);
+    
+}
+.product2{
+    position: absolute;
+    top: 12%;
+    left: 33.33%;
+    width: 33.33%;
+    height: 45vh;
+    border: 2px solid rgb(1, 71, 1);
+    
+}
+.product3{
+    position: absolute;
+    top: 12%;
+    left: 66.66%;
+    width: 33.33%;
+    height: 45vh;
+    border: 2px solid rgb(1, 71, 1);
+    
+}
+.product4{
+    position: absolute;
+    top: 60vh;
+    left: 0;
+    width: 33.33%;
+    height: 45vh;
+    border: 2px solid rgb(1, 71, 1);
+    
+}
+.product5{
+    position: absolute;
+    top: 60vh;
+    left: 33.33%;
+    width: 33.33%;
+    height: 45vh;
+    border: 2px solid rgb(1, 71, 1);
+    
+}
+.product6{
+    position: absolute;
+    top: 60vh;
+    left: 66.66%;
+    width: 33.33%;
+    height: 45vh;
+    border: 2px solid rgb(0, 0, 0);
+    
+}
+.image1{
+    position: relative;
+    height: 30vh;
+    background-image: url(../headerimage.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.image2{
+    position: relative;
+    height: 30vh;
+    background-image: url(../headerimage.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.image3{
+    position: relative;
+    height: 30vh;
+    background-image: url(../headerimage.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.image4{
+    position: relative;
+    height: 30vh;
+    background-image: url(../headerimage.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.image5{
+    position: relative;
+    height: 30vh;
+    background-image: url(../headerimage.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.image6{
+    position: relative;
+    height: 30vh;
+    background-image: url(../headerimage.jpg);
+    background-position: center;
+    background-size: cover;
+}
+h1{
+    color: tomato;
+    font-weight: bold;
+}

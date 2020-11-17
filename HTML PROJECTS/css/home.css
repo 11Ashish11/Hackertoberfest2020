@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css?family=Major+Mono+Display&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Cousine&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Rochester&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Great+Vibes&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Megrim&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Michroma&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Grand+Hotel&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+background-color: #fff;
+font-family: Arial, Helvetica, sans-serif;
+}
+
+ul{
+    float: right;
+    list-style-type: none;
+    margin-top: 25px;
+
+}
+ul li{
+    display: inline-block;
+}
+ul li a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    padding: 5px 20px;
+    border: 1px solid transparent;
+    transition: 0.4s ease;
+
+}
+ul li a:hover{
+    
+    background-color: rgb(4, 131, 88);
+    color: rgb(255, 255, 255);
+
+}
+    .active{
+    background-color: rgb(4, 131, 88);
+    color: rgb(255, 255, 255);
+
+}
+section{
+    height: 100vh;
+    width: 100%;
+    background: url(../maintex.jpg);
+    background-position: center;
+    background-size: cover;
+}
+section .sec1{
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url(../headerimage.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 110vh;
+    text-align: center;
+
+}
+.logo{
+    background: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(../logo.png);
+    background-position: center;
+    background-size: cover;
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    top: 0%;
+    left: 0.5%;
+
+
+}
+.title{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 100px;
+    font-weight: bold;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 4px 8px rgb(0, 0, 0);
+}
+
+.sec2{
+    background-image: url(../maintex.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.sec2 .challengetopic{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: absolute;
+    top: 110%;
+    left: 5%;
+    font-size: 60px;
+    font-weight: bold;
+    color: tomato;
+
+
+}
+.sec2 .challengetopic h4{
+    font-size: 30px;
+    color: whitesmoke;
+}
+.content{
+    position: relative;
+    top: 10%;
+    left: 60%;
+}
+.content h1{
+    color: tomato;
+    font-size: 50px;
+
+}
+.content h2{
+    color: green;
+    font-size: 40px;
+
+}
+.content p{
+    color: whitesmoke;
+    font-size: 30px;
+}
+.sec3{
+    background-image: url(../maintex.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.offertitle{
+    font-size: 80px;
+    color: tomato;
+    position: relative;
+    top: 5;
+    left: 25%;
+    font-size: 80px;
+    font-weight: bold;
+}
